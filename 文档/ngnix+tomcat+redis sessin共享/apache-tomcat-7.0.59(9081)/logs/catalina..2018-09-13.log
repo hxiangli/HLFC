@@ -1,0 +1,449 @@
+2018-09-13 14:39:08,417 [main] ERROR org.apache.catalina.valves.ExtendedAccessLogValve - unable to decode with rest of chars starting: %h
+2018-09-13 14:39:08,420 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server version:        Apache Tomcat/7.0.59
+2018-09-13 14:39:08,421 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server built:          Jan 28 2015 15:51:10 UTC
+2018-09-13 14:39:08,421 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server number:         7.0.59.0
+2018-09-13 14:39:08,421 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Name:               Windows 7
+2018-09-13 14:39:08,421 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Version:            6.1
+2018-09-13 14:39:08,421 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Architecture:          amd64
+2018-09-13 14:39:08,422 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Java Home:             E:\Java\jdk1.7.0_79\jre
+2018-09-13 14:39:08,422 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Version:           1.7.0_79-b15
+2018-09-13 14:39:08,422 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Vendor:            Oracle Corporation
+2018-09-13 14:39:08,422 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_BASE:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 14:39:08,422 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_HOME:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 14:39:08,423 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-09-13 14:39:08,423 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dnop
+2018-09-13 14:39:08,423 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-09-13 14:39:08,424 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 14:39:08,425 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 14:39:08,425 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.59(9081)\temp
+2018-09-13 14:39:08,425 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+2018-09-13 14:39:08,425 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-09-13 14:39:09,057 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+2018-09-13 14:39:09,192 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Initializing ProtocolHandler ["http-apr-9081"]
+2018-09-13 14:39:09,249 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Initializing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 14:39:09,254 [main] INFO  org.apache.catalina.startup.Catalina - Initialization processed in 1459 ms
+2018-09-13 14:39:09,298 [main] INFO  org.apache.catalina.core.StandardService - Starting service Catalina
+2018-09-13 14:39:09,298 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.59
+2018-09-13 14:39:09,308 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs
+2018-09-13 14:39:11,213 [localhost-startStop-1] INFO  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [969] milliseconds.
+2018-09-13 14:39:11,268 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs has finished in 1,960 ms
+2018-09-13 14:39:11,269 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples
+2018-09-13 14:39:12,052 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextInitialized()
+2018-09-13 14:39:12,053 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextInitialized()
+2018-09-13 14:39:12,064 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@62d7ab81')
+2018-09-13 14:39:12,065 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples has finished in 796 ms
+2018-09-13 14:39:12,065 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager
+2018-09-13 14:39:12,197 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager has finished in 132 ms
+2018-09-13 14:39:12,198 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager
+2018-09-13 14:39:12,321 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager has finished in 123 ms
+2018-09-13 14:39:12,321 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT
+2018-09-13 14:39:12,420 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT has finished in 99 ms
+2018-09-13 14:39:12,420 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test1
+2018-09-13 14:39:12,530 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test1 has finished in 109 ms
+2018-09-13 14:39:12,531 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Starting ProtocolHandler ["http-apr-9081"]
+2018-09-13 14:39:12,542 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Starting ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 14:39:12,543 [main] INFO  org.apache.catalina.startup.Catalina - Server startup in 3289 ms
+2018-09-13 15:01:13,495 [main] ERROR org.apache.catalina.valves.ExtendedAccessLogValve - unable to decode with rest of chars starting: %h
+2018-09-13 15:01:13,497 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server version:        Apache Tomcat/7.0.59
+2018-09-13 15:01:13,498 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server built:          Jan 28 2015 15:51:10 UTC
+2018-09-13 15:01:13,498 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server number:         7.0.59.0
+2018-09-13 15:01:13,498 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Name:               Windows 7
+2018-09-13 15:01:13,498 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Version:            6.1
+2018-09-13 15:01:13,498 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Architecture:          amd64
+2018-09-13 15:01:13,498 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Java Home:             E:\Java\jdk1.7.0_79\jre
+2018-09-13 15:01:13,499 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Version:           1.7.0_79-b15
+2018-09-13 15:01:13,499 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Vendor:            Oracle Corporation
+2018-09-13 15:01:13,499 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_BASE:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:01:13,499 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_HOME:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:01:13,500 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-09-13 15:01:13,501 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dnop
+2018-09-13 15:01:13,502 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-09-13 15:01:13,504 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:01:13,505 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:01:13,505 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.59(9081)\temp
+2018-09-13 15:01:13,507 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+2018-09-13 15:01:13,508 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-09-13 15:01:14,150 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+2018-09-13 15:01:14,288 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Initializing ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:01:14,305 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Initializing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:01:14,309 [main] INFO  org.apache.catalina.startup.Catalina - Initialization processed in 1233 ms
+2018-09-13 15:01:14,335 [main] INFO  org.apache.catalina.core.StandardService - Starting service Catalina
+2018-09-13 15:01:14,336 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.59
+2018-09-13 15:01:14,345 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs
+2018-09-13 15:01:15,953 [localhost-startStop-1] INFO  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,012] milliseconds.
+2018-09-13 15:01:15,974 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs has finished in 1,630 ms
+2018-09-13 15:01:15,977 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples
+2018-09-13 15:01:16,476 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextInitialized()
+2018-09-13 15:01:16,478 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextInitialized()
+2018-09-13 15:01:16,493 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@44874910')
+2018-09-13 15:01:16,496 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples has finished in 519 ms
+2018-09-13 15:01:16,499 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager
+2018-09-13 15:01:16,635 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager has finished in 136 ms
+2018-09-13 15:01:16,637 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager
+2018-09-13 15:01:16,782 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager has finished in 144 ms
+2018-09-13 15:01:16,783 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT
+2018-09-13 15:01:16,909 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT has finished in 126 ms
+2018-09-13 15:01:16,911 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test
+2018-09-13 15:01:17,035 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test has finished in 123 ms
+2018-09-13 15:01:17,037 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Starting ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:01:17,049 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Starting ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:01:17,052 [main] INFO  org.apache.catalina.startup.Catalina - Server startup in 2741 ms
+2018-09-13 15:09:36,067 [main] ERROR org.apache.catalina.valves.ExtendedAccessLogValve - unable to decode with rest of chars starting: %h
+2018-09-13 15:09:36,070 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server version:        Apache Tomcat/7.0.59
+2018-09-13 15:09:36,071 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server built:          Jan 28 2015 15:51:10 UTC
+2018-09-13 15:09:36,071 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server number:         7.0.59.0
+2018-09-13 15:09:36,071 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Name:               Windows 7
+2018-09-13 15:09:36,071 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Version:            6.1
+2018-09-13 15:09:36,071 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Architecture:          amd64
+2018-09-13 15:09:36,071 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Java Home:             E:\Java\jdk1.7.0_79\jre
+2018-09-13 15:09:36,072 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Version:           1.7.0_79-b15
+2018-09-13 15:09:36,072 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Vendor:            Oracle Corporation
+2018-09-13 15:09:36,072 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_BASE:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:09:36,072 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_HOME:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:09:36,073 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-09-13 15:09:36,074 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dnop
+2018-09-13 15:09:36,075 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-09-13 15:09:36,077 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:09:36,078 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:09:36,080 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.59(9081)\temp
+2018-09-13 15:09:36,081 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+2018-09-13 15:09:36,083 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-09-13 15:09:36,669 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+2018-09-13 15:09:36,777 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Initializing ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:09:36,791 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Initializing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:09:36,795 [main] INFO  org.apache.catalina.startup.Catalina - Initialization processed in 1132 ms
+2018-09-13 15:09:36,818 [main] INFO  org.apache.catalina.core.StandardService - Starting service Catalina
+2018-09-13 15:09:36,819 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.59
+2018-09-13 15:09:36,829 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs
+2018-09-13 15:09:38,193 [localhost-startStop-1] INFO  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [867] milliseconds.
+2018-09-13 15:09:38,215 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs has finished in 1,386 ms
+2018-09-13 15:09:38,223 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples
+2018-09-13 15:09:38,591 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextInitialized()
+2018-09-13 15:09:38,593 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextInitialized()
+2018-09-13 15:09:38,605 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@628006f9')
+2018-09-13 15:09:38,608 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples has finished in 385 ms
+2018-09-13 15:09:38,610 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager
+2018-09-13 15:09:38,729 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager has finished in 119 ms
+2018-09-13 15:09:38,731 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager
+2018-09-13 15:09:38,855 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager has finished in 124 ms
+2018-09-13 15:09:38,857 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT
+2018-09-13 15:09:38,967 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT has finished in 110 ms
+2018-09-13 15:09:38,969 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test
+2018-09-13 15:09:39,072 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test has finished in 103 ms
+2018-09-13 15:09:39,075 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Starting ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:09:39,084 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Starting ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:09:39,086 [main] INFO  org.apache.catalina.startup.Catalina - Server startup in 2288 ms
+2018-09-13 15:10:32,500 [main] ERROR org.apache.catalina.valves.ExtendedAccessLogValve - unable to decode with rest of chars starting: %h
+2018-09-13 15:10:32,503 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server version:        Apache Tomcat/7.0.59
+2018-09-13 15:10:32,503 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server built:          Jan 28 2015 15:51:10 UTC
+2018-09-13 15:10:32,503 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server number:         7.0.59.0
+2018-09-13 15:10:32,504 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Name:               Windows 7
+2018-09-13 15:10:32,504 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Version:            6.1
+2018-09-13 15:10:32,504 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Architecture:          amd64
+2018-09-13 15:10:32,504 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Java Home:             E:\Java\jdk1.7.0_79\jre
+2018-09-13 15:10:32,505 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Version:           1.7.0_79-b15
+2018-09-13 15:10:32,505 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Vendor:            Oracle Corporation
+2018-09-13 15:10:32,505 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_BASE:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:10:32,505 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_HOME:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:10:32,506 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-09-13 15:10:32,507 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dnop
+2018-09-13 15:10:32,509 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-09-13 15:10:32,511 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:10:32,512 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:10:32,514 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.59(9081)\temp
+2018-09-13 15:10:32,516 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+2018-09-13 15:10:32,518 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-09-13 15:10:33,115 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+2018-09-13 15:10:33,219 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Initializing ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:10:33,284 [main] ERROR org.apache.coyote.http11.Http11AprProtocol - Failed to initialize end point associated with ProtocolHandler ["http-apr-9081"]
+java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+2018-09-13 15:10:33,306 [main] ERROR org.apache.catalina.core.StandardService - Failed to initialize connector [Connector[HTTP/1.1-9081]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-9081]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+2018-09-13 15:10:33,322 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Initializing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:10:33,325 [main] ERROR org.apache.coyote.ajp.AjpAprProtocol - Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8010"]
+java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+2018-09-13 15:10:33,338 [main] ERROR org.apache.catalina.core.StandardService - Failed to initialize connector [Connector[AJP/1.3-8010]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8010]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+2018-09-13 15:10:33,352 [main] INFO  org.apache.catalina.startup.Catalina - Initialization processed in 1271 ms
+2018-09-13 15:10:33,374 [main] INFO  org.apache.catalina.core.StandardService - Starting service Catalina
+2018-09-13 15:10:33,375 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.59
+2018-09-13 15:10:33,384 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs
+2018-09-13 15:10:34,745 [localhost-startStop-1] INFO  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [865] milliseconds.
+2018-09-13 15:10:34,767 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs has finished in 1,383 ms
+2018-09-13 15:10:34,768 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples
+2018-09-13 15:10:35,159 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextInitialized()
+2018-09-13 15:10:35,164 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextInitialized()
+2018-09-13 15:10:35,178 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@60e0f17a')
+2018-09-13 15:10:35,182 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples has finished in 414 ms
+2018-09-13 15:10:35,184 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager
+2018-09-13 15:10:35,316 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager has finished in 132 ms
+2018-09-13 15:10:35,317 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager
+2018-09-13 15:10:35,453 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager has finished in 136 ms
+2018-09-13 15:10:35,455 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT
+2018-09-13 15:10:35,574 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT has finished in 119 ms
+2018-09-13 15:10:35,576 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test
+2018-09-13 15:10:35,700 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test has finished in 124 ms
+2018-09-13 15:10:35,703 [main] INFO  org.apache.catalina.startup.Catalina - Server startup in 2349 ms
+2018-09-13 15:10:35,736 [main] ERROR org.apache.catalina.core.StandardServer - StandardServer.await: create[localhost:8016]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:777)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+2018-09-13 15:10:35,743 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Pausing ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:10:35,744 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Pausing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:10:35,745 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Catalina
+2018-09-13 15:10:35,760 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextDestroyed()
+2018-09-13 15:10:35,762 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextDestroyed()
+2018-09-13 15:10:35,773 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Stopping ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:10:35,774 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Destroying ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:10:35,776 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Stopping ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:10:35,778 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Destroying ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:22:38,619 [main] ERROR org.apache.catalina.valves.ExtendedAccessLogValve - unable to decode with rest of chars starting: %h
+2018-09-13 15:22:38,623 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server version:        Apache Tomcat/7.0.59
+2018-09-13 15:22:38,624 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server built:          Jan 28 2015 15:51:10 UTC
+2018-09-13 15:22:38,624 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Server number:         7.0.59.0
+2018-09-13 15:22:38,624 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Name:               Windows 7
+2018-09-13 15:22:38,625 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - OS Version:            6.1
+2018-09-13 15:22:38,625 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Architecture:          amd64
+2018-09-13 15:22:38,625 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Java Home:             E:\Java\jdk1.7.0_79\jre
+2018-09-13 15:22:38,625 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Version:           1.7.0_79-b15
+2018-09-13 15:22:38,625 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - JVM Vendor:            Oracle Corporation
+2018-09-13 15:22:38,626 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_BASE:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:22:38,626 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - CATALINA_HOME:         F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:22:38,626 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2018-09-13 15:22:38,629 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dnop
+2018-09-13 15:22:38,633 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2018-09-13 15:22:38,636 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:22:38,637 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.59(9081)
+2018-09-13 15:22:38,640 [main] INFO  org.apache.catalina.startup.VersionLoggerListener - Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.59(9081)\temp
+2018-09-13 15:22:38,642 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+2018-09-13 15:22:38,644 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-09-13 15:22:39,389 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+2018-09-13 15:22:39,516 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Initializing ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:22:39,536 [main] ERROR org.apache.coyote.http11.Http11AprProtocol - Failed to initialize end point associated with ProtocolHandler ["http-apr-9081"]
+java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+2018-09-13 15:22:39,549 [main] ERROR org.apache.catalina.core.StandardService - Failed to initialize connector [Connector[HTTP/1.1-9081]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-9081]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+2018-09-13 15:22:39,578 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Initializing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:22:39,582 [main] ERROR org.apache.coyote.ajp.AjpAprProtocol - Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8010"]
+java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+2018-09-13 15:22:39,596 [main] ERROR org.apache.catalina.core.StandardService - Failed to initialize connector [Connector[AJP/1.3-8010]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8010]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ͨ³£ÿ¸öÌ׽Ó×ֵØַ(ЭÒé/ÍøÂçµØַ/¶˿Ú)ֻÔÊÐíʹÓ
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:453)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+2018-09-13 15:22:39,616 [main] INFO  org.apache.catalina.startup.Catalina - Initialization processed in 1478 ms
+2018-09-13 15:22:39,647 [main] INFO  org.apache.catalina.core.StandardService - Starting service Catalina
+2018-09-13 15:22:39,648 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.59
+2018-09-13 15:22:39,657 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs
+2018-09-13 15:22:41,341 [localhost-startStop-1] INFO  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,084] milliseconds.
+2018-09-13 15:22:41,366 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\docs has finished in 1,709 ms
+2018-09-13 15:22:41,368 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples
+2018-09-13 15:22:41,827 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextInitialized()
+2018-09-13 15:22:41,831 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextInitialized()
+2018-09-13 15:22:41,852 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1d634758')
+2018-09-13 15:22:41,857 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\examples has finished in 489 ms
+2018-09-13 15:22:41,861 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager
+2018-09-13 15:22:42,017 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\host-manager has finished in 155 ms
+2018-09-13 15:22:42,018 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager
+2018-09-13 15:22:42,167 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\manager has finished in 149 ms
+2018-09-13 15:22:42,168 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT
+2018-09-13 15:22:42,298 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\ROOT has finished in 130 ms
+2018-09-13 15:22:42,301 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deploying web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test
+2018-09-13 15:22:42,428 [localhost-startStop-1] INFO  org.apache.catalina.startup.HostConfig - Deployment of web application directory F:\apache-tomcat-7.0.59(9081)\webapps\test has finished in 126 ms
+2018-09-13 15:22:42,431 [main] INFO  org.apache.catalina.startup.Catalina - Server startup in 2813 ms
+2018-09-13 15:22:42,471 [main] ERROR org.apache.catalina.core.StandardServer - StandardServer.await: create[localhost:8016]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:777)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+2018-09-13 15:22:42,480 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Pausing ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:22:42,482 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Pausing ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:22:42,484 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Catalina
+2018-09-13 15:22:42,502 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - SessionListener: contextDestroyed()
+2018-09-13 15:22:42,503 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/examples] - ContextListener: contextDestroyed()
+2018-09-13 15:22:42,516 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Stopping ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:22:42,517 [main] INFO  org.apache.coyote.http11.Http11AprProtocol - Destroying ProtocolHandler ["http-apr-9081"]
+2018-09-13 15:22:42,519 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Stopping ProtocolHandler ["ajp-apr-8010"]
+2018-09-13 15:22:42,520 [main] INFO  org.apache.coyote.ajp.AjpAprProtocol - Destroying ProtocolHandler ["ajp-apr-8010"]
