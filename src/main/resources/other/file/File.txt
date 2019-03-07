@@ -1,0 +1,251 @@
+返回主页
+beibidewomen
+博客园首页新随笔联系管理订阅订阅
+随笔- 138  文章- 0  评论- 0 
+BufferedReader 读取文件内容，原样输出
+1.新建目标类：
+
+复制代码
+package com.xuzhiwen.io;
+
+public class TargetFile {
+    public static void main(String[] args) {
+        System.out.println("TargetFile.java");
+    }
+}
+复制代码
+2.测试类：
+
+复制代码
+package com.xuzhiwen.io;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class TestBufferedReader {
+    public static void main(String[] args) throws Exception {
+        String filepath = "src/com/xuzhiwen/io/TargetFile.java";
+        BufferedReader read = new BufferedReader(new FileReader(filepath));
+        String s;
+        StringBuffer sb = new StringBuffer();
+        while((s=read.readLine()) != null){
+            sb.append(s+"\n");
+        }
+        read.close();
+        System.out.println(sb);
+    }
+}
+复制代码
+3.输出结果为：
+
+
+
+ 4.文件结构树：
+
+
+
+ 
+
+5. 将结果用StringReader再读一次：
+
+复制代码
+package com.xuzhiwen.io;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.StringReader;
+
+public class TestBufferedReader {
+    public static void main(String[] args) throws Exception {
+        String filepath = "src/com/xuzhiwen/io/TargetFile.java";
+        BufferedReader read = new BufferedReader(new FileReader(filepath));
+        String s;
+        StringBuffer sb = new StringBuffer();
+        while((s=read.readLine()) != null){
+            sb.append(s+"\n");
+        }
+        read.close();
+        System.out.println(sb);
+        
+        
+        StringReader sr = new StringReader(sb.toString());
+        int c;
+        while((c=sr.read()) != -1){
+            System.out.print((char)c);
+        }
+    }
+}
+复制代码
+6. 运行结果如下:
+
+
+
+7. 将内容写入文件：
+
+复制代码
+package com.xuzhiwen.io;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.StringReader;
+
+public class TestBufferedReader {
+    public static void main(String[] args) throws Exception {
+        String filepath = "src/com/xuzhiwen/io/TargetFile.java";
+        BufferedReader read = new BufferedReader(new FileReader(filepath));
+        String s;
+        StringBuffer sb = new StringBuffer();
+        while((s=read.readLine()) != null){
+            sb.append(s+"\n");
+        }
+        read.close();
+        System.out.println(sb);
+        System.out.println("==============================================");
+        
+        
+        StringReader sr = new StringReader(sb.toString());
+        int c;
+        while((c=sr.read()) != -1){
+            System.out.print((char)c);
+        }
+        sr.close();
+        
+        System.out.println("==============================================");
+        
+        String file = "basic.out";
+        BufferedReader br = new BufferedReader(new StringReader(sb.toString()));
+        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(file)));
+        
+        int lineCount = 1;
+        String ss;
+        while((ss=br.readLine()) != null){
+            pw.println(lineCount+":  "+ss);
+            lineCount++;
+        }
+        pw.close();
+    }
+}
+复制代码
+8. 运行结果：
+
+
+
+9. 打开： basic.out文件：
+
+
+
+ 
+
+分类: JAVA IO
+好文要顶 关注我 收藏该文    
+beibidewomen
+关注 - 2
+粉丝 - 1
++加关注
+0 0
+« 上一篇：activemq安装及使用
+» 下一篇：io 基本概念
+posted @ 2017-08-11 14:57 beibidewomen 阅读(1794) 评论(0) 编辑 收藏
+刷新评论刷新页面返回顶部
+注册用户登录后才能发表评论，请 登录 或 注册，访问网站首页。
+【推荐】超50万VC++源码: 大型组态工控、电力仿真CAD与GIS源码库！
+【活动】华为云普惠季 1折秒杀 狂欢继续
+【工具】SpreadJS纯前端表格控件，可嵌入应用开发的在线Excel
+【腾讯云】拼团福利，AMD云服务器8元/月
+腾讯云1105
+相关博文：
+· java实现文件的复制
+· 利用HttpClient进行http文件上传
+· 匿名内部类的简单使用
+· java读取文件并获得文件编码，转换为指定编码的工具类代码
+· JAVA 文件复制，移动工具（实用）
+
+最新新闻：
+· 珠海银隆回应：采取法律手段并非是董明珠指使
+· Airbnb房东为加州大火灾民提供免费住房
+· 美团再收缩出行业务 停止运营共享汽车
+· 福特与沃尔玛合作 推出自动驾驶汽车送货到家服务
+· “优爱腾”的成长烦恼
+» 更多新闻...
+昵称：beibidewomen
+园龄：1年4个月
+粉丝：1
+关注：2
++加关注
+<	2018年11月	>
+日	一	二	三	四	五	六
+28	29	30	31	1	2	3
+4	5	6	7	8	9	10
+11	12	13	14	15	16	17
+18	19	20	21	22	23	24
+25	26	27	28	29	30	1
+2	3	4	5	6	7	8
+搜索
+
+ 
+
+ 
+常用链接
+我的随笔
+我的评论
+我的参与
+最新评论
+我的标签
+随笔分类
+activemq(4)
+bootstrap
+BufferedImage(1)
+dubbo
+Exception(1)
+git从入门到精通(10)
+hadoop(3)
+hadoop - kafka(1)
+hadoop - storm(1)
+hibernate(4)
+idea常用快捷键(1)
+Java(1)
+JAVA IO(10)
+java 反射(4)
+javascript从入门到精通(3)
+jquery从入门到精通(1)
+linux从入门到精通(15)
+maven(3)
+response(1)
+shiro(1)
+snmp(5)
+spring (26)
+spring boot 从入门到放弃(2)
+spring mvc
+struts2(14)
+svn(2)
+Thread(1)
+tomcat(2)
+websocket(1)
+常用框架所需pom依赖(1)
+日记(4)
+问题(3)
+详解web.xml
+重要网站(1)
+随笔档案
+2018年9月 (13)
+2018年6月 (7)
+2018年5月 (1)
+2018年4月 (1)
+2018年3月 (4)
+2018年2月 (2)
+2018年1月 (2)
+2017年11月 (2)
+2017年10月 (20)
+2017年9月 (2)
+2017年8月 (48)
+2017年7月 (36)
+阅读排行榜
+1. spring配置文件中引入其他配置文件的方法(2151)
+2. jquery从入门到精通（一）(1821)
+3. BufferedReader 读取文件内容，原样输出(1792)
+4. 阿里代码规范扫描工具安装地址(1012)
+5. struts2第一个程序 Helloworld(798)
+Copyright ©2018 beibidewomen

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hlfc.db.mybatislpus.dao.DeptDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hlfc.db.mybatislpus.bean.Dept">
+        <!--<collection property="users"  ofType="com.hlfc.db.mybatislpus.bean.User" >-->
+           <!--<result property="name" column="user_name"/>-->
+        <!--</collection>-->
+    </resultMap>
+
+    <resultMap id="BaseResultMap2" type="com.hlfc.db.mybatislpus.bean.Dept">
+        <id column="unid" property="unid" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <collection property="users"  column="unid"  javaType="ArrayList" ofType="com.hlfc.db.mybatislpus.bean.User" select="getUsers">
+        </collection>
+    </resultMap>
+
+
+
+
+    <!--                 一对多                   -->
+
+    <!--1-->
+    <!--根据部门ID获取用户信息-->
+    <!--<select id="getDeptUsersByName" resultMap="BaseResultMap">-->
+
+        <!--SELECT d.deptName , d.sortNum, u.user_name-->
+        <!--FROM t_dept d-->
+        <!--LEFT JOIN   t_user u on u.deptId = d.unid-->
+        <!--<where>-->
+            <!--<if test="deptName !=null ">-->
+                <!--d.deptName = #{deptName}-->
+            <!--</if>-->
+        <!--</where>-->
+    <!--</select>-->
+
+    <!--2-->
+    <!--根据部门ID获取用户信息-->
+    <select id="getDeptUsersByName" resultMap="BaseResultMap2">
+
+        SELECT d.unid ,d.deptName , d.sortNum
+        FROM t_dept d
+        <where>
+            <if test="deptName !=null ">
+                d.deptName = #{deptName}
+            </if>
+        </where>
+    </select>
+
+    <select id="getUsers" resultType="com.hlfc.db.mybatislpus.bean.User">
+        SELECT user_name as name FROM t_user WHERE deptId = #{unid}
+    </select>
+
+
+</mapper>

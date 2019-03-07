@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd" >
+
+    <!-- 扫描controller , 扫描service-->
+    <!--<context:component-scan base-package="com.hlfc.db.mybatislpus.service"/>-->
+    <context:component-scan base-package="com.hlfc.controller.spring,com.hlfc.db.mybatislpus.service,com.hlfc.controller.spring,com.hlfc.db.hibernate"/>
+	<mvc:annotation-driven/>
+
+
+	<!--静态资源解析器-->
+    <mvc:default-servlet-handler/>
+
+    <!---->
+    <!--&lt;!&ndash; 定义视图文件解析 &ndash;&gt;-->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!--<property name="prefix" value="/view/"/>-->
+		<property name="suffix" value=".jsp"/>
+		<property name="redirectHttp10Compatible" value="false" />
+	</bean>
+
+
+	<!--数据库支持-->
+    <import resource="../database/mybatisplus-mysql.xml"/>
+
+	<import resource="../database/hibernate-mysql.xml"/>
+
+	<!--自动根据实体类创建数据库表-->
+	<!--<import resource="../hibernate/User.hbm.xml"/>-->
+</beans>

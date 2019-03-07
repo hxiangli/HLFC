@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!-- 实体类，对应的数据表 -->
+    <class name="com.hlfc.db.hibernate.bean.User" table="t_user">
+        <!-- 自增长 -->
+        <id column="unid" name="unid">
+            <generator class="native"></generator>
+        </id>
+        <property column="user_name" name="name"></property>
+        <property column="password" name="password"></property>
+    </class>
+</hibernate-mapping>
