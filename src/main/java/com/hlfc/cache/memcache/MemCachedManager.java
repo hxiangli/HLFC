@@ -32,7 +32,7 @@ public class MemCachedManager {
 //        debugFlag=false
         MemCachedConfig memCachedConfig = new  MemCachedConfig();
         memCachedConfig.setCachedName("memcache");
-        String [] servers = new String[]{"127.0.0.1\\:11211"};
+        String [] servers = new String[]{"127.0.0.1:11211"};
         memCachedConfig.setServers(servers);
         Integer [] weights = new Integer[]{1};
         memCachedConfig.setWeights(weights);

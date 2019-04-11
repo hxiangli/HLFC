@@ -14,7 +14,7 @@
 
     <!--统一版本管理-->
     <spring.version>4.3.9.RELEASE</spring.version>
-    <java_memcached.version>release_2.6.6</java_memcached.version>
+    <java_memcached.version>2.6.6</java_memcached.version>
     <slf4j-simple.version>1.7.7</slf4j-simple.version>
     <slf4j-api.version>1.6.1</slf4j-api.version>
     <struts2-core.version>2.3.8</struts2-core.version>
@@ -39,8 +39,8 @@
 
         <!-- memcached用到的依赖包 -->
         <dependency>
-            <groupId>java.memcached</groupId>
-            <artifactId>java_memcached</artifactId>
+            <groupId>com.danga</groupId>
+            <artifactId>java-memcached</artifactId>
             <version>${java_memcached.version}</version>
         </dependency>
         <dependency>
