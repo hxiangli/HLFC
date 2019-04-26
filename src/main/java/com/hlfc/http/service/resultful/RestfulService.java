@@ -11,7 +11,7 @@ import javax.ws.rs.core.MediaType;
  * @author hxl
  * @since  2018-11-7
  */
-@Path("restfulservice")
+@Path("rest")
 @Precedence(MediaType.APPLICATION_JSON)
 public class RestfulService {
 

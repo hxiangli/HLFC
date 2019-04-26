@@ -2,6 +2,7 @@ package com.hlfc.controller.spring;
 
 import com.hlfc.controller.util.ResponseResult;
 import com.hlfc.db.mybatislpus.bean.User;
+import com.hlfc.nio.nettyAddWebSocket.WebsocketServer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,11 +17,27 @@ import java.util.List;
 public class ViewController {
 
     /**
-     * 视图解析器作用。
+     * 首页
      * @return
      */
     @GetMapping("/index")
     public String  index(){
         return "index";
     }
+
+
+    /**
+     * socket
+     * @return
+     */
+    @GetMapping("/nettySocket")
+    public String  nettySocket(){
+        try {
+            WebsocketServer.connect();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "view/nettyAndWebSocket/socket";
+    }
+
 }

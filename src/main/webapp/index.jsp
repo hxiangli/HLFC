@@ -12,5 +12,7 @@
 <button onclick="window.open('view/ueditor/jsp/ueditor.jsp')">富文本框</button>
 <button onclick="window.open('view/struts/jsp/login.jsp')">基本数据操作(struts)</button>
 <button onclick="window.open('view/spring/jsp/login.jsp')">基本数据操作(springMVC)</button>
+<button onclick="window.open('view/ckplayer/index.html')">视频播放(ckplayer)</button>
+<button onclick="window.open('<%=webAppPath %>/nettySocket')">nettySocket</button>
 </body>
 </html>
