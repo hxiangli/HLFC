@@ -20,37 +20,36 @@ import java.net.URL;
  */
 public class ClientRequest {
 	
-	
-	/**
-	 * 通用POST连接方式
-	 * @param reqjson  请求参数
-	 * @param urlstr   请求路径
-	 * @return
-	 */
-	public static String commPostConnetionUrl(String reqjson,String urlstr){
-		
-		String message= null;
-		
+    /**
+     * 通用POST连接方式
+     * @param reqjson  请求参数
+     * @param urlstr   请求路径
+     * @return
+     */
+    public static String commPostConnetionUrl(String reqjson,String urlstr,String contentType){
 
-		InputStream is = null;
-		
-		try {
-            
+        String message= null;
+
+
+        InputStream is = null;
+
+        try {
+
             URL httpclient =new URL(urlstr);
             HttpURLConnection conn =(HttpURLConnection) httpclient.openConnection();
             conn.setConnectTimeout(10000);
             conn.setReadTimeout(30000);
             conn.setRequestMethod("POST");
-            conn.setRequestProperty("Content-Type","application/x-www-form-urlencoded");    
-            conn.setDoOutput(true);        
+            conn.setRequestProperty("Content-Type",contentType);
+            conn.setDoOutput(true);
             conn.setDoInput(true);
             conn.connect();
-            OutputStream os= conn.getOutputStream();    
-            System.out.println("请求参数req:"+reqjson);
-            os.write(reqjson.getBytes("UTF-8"));//传入参数    
+            OutputStream os= conn.getOutputStream();
+            System.out.println("请求类型："+contentType+"参数req:"+reqjson);
+            os.write(reqjson.getBytes("UTF-8"));//传入参数
             os.flush();
             os.close();
-            
+
             is =conn.getInputStream();
             int size =is.available();
             byte[] jsonBytes =new byte[size];
@@ -62,16 +61,17 @@ public class ClientRequest {
         } catch (IOException e) {
             e.printStackTrace();
         } finally{
-        	if (is!=null){
-        		try {
-					is.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-        	}
+            if (is!=null){
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
-		return message;
-	}
+        return message;
+    }
+
 	
 	/**
 	 * 通用GET连接方式
