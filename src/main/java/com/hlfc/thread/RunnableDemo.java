@@ -1,5 +1,10 @@
 package com.hlfc.thread;
 
+/**
+ * implements Runnable 的线程写法
+ * @Author hxl
+ * @Date  2019/6/24
+ **/
 public class RunnableDemo implements Runnable {
    private Thread t;
    private String threadName;

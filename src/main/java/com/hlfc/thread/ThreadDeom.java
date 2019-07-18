@@ -1,5 +1,10 @@
 package com.hlfc.thread;
 
+/**
+ * extends Thread  的线程写法
+ * @Author hxl
+ * @Date  2019/6/24
+ **/
 class ThreadDemo extends Thread {
    private Thread t;
    private String threadName;
