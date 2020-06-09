@@ -1,5 +1,11 @@
 package com.hlfc.http.client;
 
+import com.hlfc.controller.util.ResponseResult;
+import net.sf.json.JSONObject;
+import org.springframework.util.Base64Utils;
+
+import java.io.*;
+
 /**
  * 请求测试类
  * @author HXL
@@ -14,7 +20,7 @@ package com.hlfc.http.client;
  */
 public class Test {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 
 
 		String formContentType = "application/x-www-form-urlencoded";
@@ -30,6 +36,22 @@ public class Test {
 		//json
 		String reqjson = "{\"operType\":\"234\"}";
 		ClientRequest.commPostConnetionUrl(reqjson, urlstr,jsonContentType);
+
+		//获取 file 文件流
+		urlstr = "http://127.0.0.1:9090/hlfc/rest/postFile";
+		byte[]  StringJson = ClientRequest.PostFileConnetionUrl(reqjson, urlstr,jsonContentType);
+		//创建文件输出流
+		OutputStream stream = null;
+		try {
+			stream = new FileOutputStream("C:\\Users\\ASUS\\Desktop\\temp\\tran_03.doc");
+			stream.write(StringJson);
+			stream.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		//关闭流
 	}
 
 }

@@ -1,11 +1,7 @@
 package com.hlfc.http.client;
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -72,8 +68,59 @@ public class ClientRequest {
         return message;
     }
 
-	
-	/**
+    /**
+     * 文件下载POST连接方式
+     * @param reqjson  请求参数
+     * @param urlstr   请求路径
+     * @return
+     */
+    public static byte[] PostFileConnetionUrl(String reqjson,String urlstr,String contentType){
+
+        String message= null;
+        InputStream is = null;
+
+        try {
+
+            URL httpclient =new URL(urlstr);
+            HttpURLConnection conn =(HttpURLConnection) httpclient.openConnection();
+            conn.setConnectTimeout(10000);
+            conn.setReadTimeout(30000);
+            conn.setRequestMethod("POST");
+            conn.setRequestProperty("Content-Type",contentType);
+            conn.setDoOutput(true);
+            conn.setDoInput(true);
+            conn.connect();
+
+            InputStream inputStream =conn.getInputStream();
+            ByteArrayOutputStream byteArray = new ByteArrayOutputStream();
+            byte[] buff = new byte[1024*1024]; //如果是稍微大的文件，这里配置的大一些
+            int len = 0;
+            while((len = inputStream.read(buff)) > 0) {
+                //把从服务端读取的文件流保存到ByteArrayOutputSteam中
+                byteArray.write(buff, 0, len);
+                byteArray.flush();
+            }
+            inputStream.close();
+            return byteArray.toByteArray();
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally{
+            if (is!=null){
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return null;
+    }
+
+
+
+    /**
 	 * 通用GET连接方式
 	 * @param urlstr   请求路径
 	 * @return
