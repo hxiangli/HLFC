@@ -31,7 +31,6 @@ public class Utils {
 			in = request.getInputStream();
 			InputStreamReader isr = new InputStreamReader(in, encode);
 			BufferedReader bufferReader = new BufferedReader(isr);
-			//2012-12-23 mfy by lliangjian@linewell.com 为保持原格式添加换行符
 			String line = bufferReader.readLine();
 			if(StringUtils.isEmpty(line)){
 				line = "";
@@ -45,12 +44,10 @@ public class Utils {
 			} while (line != null);
 			//end mfy 2012-12-23
 			
-			//2012-2-28 add by xhuatang@linewell.com 关闭读取的信息
 			bufferReader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}finally{
-			//add by llp 06-08 流最好实现关闭
 //			try {
 //				in.close();
 //			} catch (IOException e) {
