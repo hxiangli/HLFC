@@ -4,5 +4,5 @@ target
 *.iml
 logs
 *.log
-文档
-文档/
+/文档
+/文档/
