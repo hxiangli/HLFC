@@ -17,7 +17,7 @@
     <java_memcached.version>2.6.6</java_memcached.version>
     <slf4j-simple.version>1.7.7</slf4j-simple.version>
     <slf4j-api.version>1.6.1</slf4j-api.version>
-    <struts2-core.version>2.3.8</struts2-core.version>
+    <struts2-core.version>2.5.22</struts2-core.version>
     <commons-pool.version>1.6</commons-pool.version>
     <ueditor.version>1.1.2-offical</ueditor.version>
     <gson.version>2.3</gson.version>
