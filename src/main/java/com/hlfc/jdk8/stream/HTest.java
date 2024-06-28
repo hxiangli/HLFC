@@ -1,12 +1,13 @@
 package com.hlfc.jdk8.stream;
 
+
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Auther: hxl
+ * @Auther: hxl111
  * @Date: 2020/5/26 15:11
  */
 public class HTest {

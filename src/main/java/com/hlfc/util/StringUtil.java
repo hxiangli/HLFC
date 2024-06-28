@@ -16,7 +16,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
-import sun.misc.BASE64Encoder;
 
 public class StringUtil {
     public static final String STRINGSPLIT = ",";
@@ -128,20 +127,6 @@ public class StringUtil {
 
             return resultList;
         }
-    }
-
-    public static String hashBase64(String str) {
-        String ret = "";
-
-        try {
-            MessageDigest sha = MessageDigest.getInstance("SHA-1");
-            sha.update(str.getBytes());
-            ret = (new BASE64Encoder()).encode(sha.digest());
-        } catch (Exception var3) {
-            var3.printStackTrace();
-        }
-
-        return ret;
     }
 
     public static String convertObjectToString(Object obj) {
